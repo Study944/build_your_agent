@@ -1,1 +1,17 @@
-spring.application.name=build-your-agent
+spring:
+  application:
+    name: build-your-agent
+  profiles:
+    active: local
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/build_your_agent
+    username: root
+    password: 123456
+server:
+  port: 8888
+springdoc:
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.buildyouragent.controller

@@ -1,4 +1,4 @@
-package com.zerocode.exception;
+package com.buildyouragent.exception;
 
 import lombok.Getter;
 

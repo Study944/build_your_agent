@@ -1,7 +1,7 @@
-package com.zerocode.common;
+package com.buildyouragent.common;
 
-import com.zerocode.exception.BusinessException;
-import com.zerocode.exception.ErrorCode;
+import com.buildyouragent.exception.BusinessException;
+import com.buildyouragent.exception.ErrorCode;
 
 /**
  * 抛异常工具类

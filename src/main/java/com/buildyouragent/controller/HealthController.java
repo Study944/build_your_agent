@@ -1,7 +1,7 @@
-package com.zerocode.controller;
+package com.buildyouragent.controller;
 
-import com.zerocode.common.BaseResponse;
-import com.zerocode.common.ResultUtil;
+import com.buildyouragent.common.BaseResponse;
+import com.buildyouragent.common.ResultUtil;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

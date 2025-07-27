@@ -1,6 +1,6 @@
-package com.zerocode.common;
+package com.buildyouragent.common;
 
-import com.zerocode.exception.ErrorCode;
+import com.buildyouragent.exception.ErrorCode;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
