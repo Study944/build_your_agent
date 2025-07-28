@@ -1,4 +1,4 @@
-package com.buildyouragent.domain;
+package com.buildyouragent.domain.dto;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -9,19 +9,12 @@ import lombok.Data;
 /**
  * 智能体实体
  */
-@TableName(value ="agent")
 @Data
-public class Agent {
+public class AgentAddDTO {
     /**
      * 智能体id
      */
-    @TableId(type = IdType.ASSIGN_ID)
     private Long id;
-
-    /**
-     * 用户id
-     */
-    private Long userId;
 
     /**
      * 智能体名称
@@ -38,13 +31,5 @@ public class Agent {
      */
     private String systemPrompt;
 
-    /**
-     * 创建时间
-     */
-    private Date createTime;
-
-    /**
-     * 更新时间
-     */
-    private Date updateTime;
+    // TODO 链接的工具和知识库
 }

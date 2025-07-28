@@ -8,6 +8,9 @@ spring:
     url: jdbc:mysql://localhost:3306/build_your_agent
     username: root
     password: 123456
+  mybatis-plus:
+    configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 开启日志
 server:
   port: 8888
 springdoc:

@@ -1,6 +1,6 @@
 package com.buildyouragent.service;
 
-import com.buildyouragent.domain.Agent;
+import com.buildyouragent.domain.entity.Agent;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

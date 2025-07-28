@@ -1,7 +1,7 @@
 package com.buildyouragent.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.buildyouragent.domain.Agent;
+import com.buildyouragent.domain.entity.Agent;
 import com.buildyouragent.service.AgentService;
 import com.buildyouragent.mapper.AgentMapper;
 import org.springframework.stereotype.Service;
