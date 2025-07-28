@@ -10,13 +10,15 @@
             <result property="name" column="name" jdbcType="VARCHAR"/>
             <result property="description" column="description" jdbcType="VARCHAR"/>
             <result property="systemPrompt" column="system_prompt" jdbcType="VARCHAR"/>
-            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
-            <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+            <result property="toolIds" column="tool_ids" jdbcType="VARCHAR"/>
+            <result property="knowledgeIds" column="knowledge_ids" jdbcType="VARCHAR"/>
     </resultMap>
 
     <sql id="Base_Column_List">
         id,user_id,name,
-        description,system_prompt,createTime,
-        updateTime
+        description,system_prompt,create_time,
+        update_time,tool_ids,knowledge_ids
     </sql>
 </mapper>

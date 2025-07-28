@@ -1,20 +1,12 @@
-package com.buildyouragent.domain.dto;
+package com.buildyouragent.domain.dto.agent;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
-import java.util.Date;
 import lombok.Data;
 
 /**
- * 智能体实体
+ * 智能体新增请求
  */
 @Data
 public class AgentAddDTO {
-    /**
-     * 智能体id
-     */
-    private Long id;
 
     /**
      * 智能体名称

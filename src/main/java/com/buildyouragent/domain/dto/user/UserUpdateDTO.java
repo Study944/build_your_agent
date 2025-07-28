@@ -1,4 +1,4 @@
-package com.buildyouragent.domain.dto;
+package com.buildyouragent.domain.dto.user;
 
 import lombok.Data;
 

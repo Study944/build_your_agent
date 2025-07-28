@@ -1,4 +1,4 @@
-package com.buildyouragent.domain.vo;
+package com.buildyouragent.domain.vo.user;
 
 import lombok.Data;
 

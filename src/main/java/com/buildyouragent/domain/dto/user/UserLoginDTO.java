@@ -1,4 +1,4 @@
-package com.buildyouragent.domain.dto;
+package com.buildyouragent.domain.dto.user;
 
 import lombok.Data;
 
@@ -6,13 +6,11 @@ import lombok.Data;
  * 用户注册请求
  */
 @Data
-public class UserRegisterDTO {
+public class UserLoginDTO {
 
     // 账号
     String account;
     // 密码
     String password;
-    // 校验密码
-    String checkPassword;
 
 }

@@ -1,21 +1,17 @@
-package com.buildyouragent.domain.entity;
+package com.buildyouragent.domain.vo.agent;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
-import java.util.Date;
 import lombok.Data;
 
+import java.util.Date;
+
 /**
- * 智能体实体
+ * 智能体查询响应
  */
-@TableName(value ="agent")
 @Data
-public class Agent {
+public class AgentVO {
     /**
      * 智能体id
      */
-    @TableId(type = IdType.ASSIGN_ID)
     private Long id;
 
     /**

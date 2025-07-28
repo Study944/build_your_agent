@@ -1,12 +1,12 @@
 package com.buildyouragent.service;
 
-import com.buildyouragent.domain.dto.UserLoginDTO;
-import com.buildyouragent.domain.dto.UserRegisterDTO;
-import com.buildyouragent.domain.dto.UserUpdateDTO;
+import com.buildyouragent.domain.dto.user.UserLoginDTO;
+import com.buildyouragent.domain.dto.user.UserRegisterDTO;
+import com.buildyouragent.domain.dto.user.UserUpdateDTO;
 import com.buildyouragent.domain.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.buildyouragent.domain.vo.UserLoginVO;
-import com.buildyouragent.domain.vo.UserRegisterVO;
+import com.buildyouragent.domain.vo.user.UserLoginVO;
+import com.buildyouragent.domain.vo.user.UserRegisterVO;
 
 /**
 * 用户服务接口

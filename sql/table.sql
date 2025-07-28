@@ -22,6 +22,11 @@ create table if not exists agent
     name          varchar(255) comment '智能体名称' not null,
     description   text comment '智能体描述',
     system_prompt text comment '系统提示语'         not null,
-    createTime    datetime default CURRENT_TIMESTAMP comment '创建时间',
-    updateTime    datetime default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP comment '更新时间'
+    create_time    datetime default CURRENT_TIMESTAMP comment '创建时间',
+    update_time    datetime default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP comment '更新时间'
 );
+
+# 新增智能体关联工具和知识库列表
+alter table agent
+    add column tool_ids varchar(255) comment '关联的工具id列表',
+    add column knowledge_ids varchar(255) comment '关联的知识库id列表';
